@@ -1,0 +1,106 @@
+
+#app{
+    margin-top: 3rem;
+}
+.container{
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col{
+    padding: 0 1rem;
+}
+.cards-container{
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.cart{
+    background-color: #f8f9fa;
+    flex: 0 0 auto;
+    width: 33.33333333%;
+    height: 100%;
+}
+.card{
+    display: flex;
+    margin-bottom: 4rem;
+    border: 1px solid #e0e0e0;
+    border-radius: .3rem;
+    padding: 1rem;
+}
+.card .card-image{
+    flex: 0 0 auto;
+    width: 40%;
+}
+.card .card-image img{
+    width: 220px;
+    height: auto;
+}
+.card-details{
+    flex: 0 0 auto;
+    width: 60%;
+}
+.card .card-title{
+    display: inline-block;
+    width: auto;
+}
+.card .card-description{
+    display: block;
+    width: auto;
+    color: #c0bec0;
+    font-size: 17px;
+}
+.card-actions{
+    margin-top: 3rem;
+}
+.price,.currency{
+    color: #418f5b;
+    font-size: 30px;
+}
+.add{
+    float: right;
+    padding: .5rem 1rem;
+    border-radius: .3rem;
+    text-transform: capitalize;
+    color: #287efd;
+    border: 1px solid #1d78fd;
+}
+.add:hover{
+    color: #000;
+    border-color: #000;
+}
+.cart-title,.total-title{
+    text-transform: capitalize;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  tr td:first-child,tr td:first-child{
+      width: 100%;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .delete{
+      color: red;
+      font-size: 1.5rem;
+  }
+  .delete,.add{
+    text-decoration: none;
+  }
+  .total{
+      margin: 1rem;
+  }
+  .total-title{
+      font-size: 1.5rem;
+      font-weight: bold;
+  }
+  .total-price{
+      font-size: 1.5rem;
+      float: right;
+  }
